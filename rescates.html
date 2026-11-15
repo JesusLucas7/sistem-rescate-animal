@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Listado de animales rescatados">
+    <title>Lista de Rescates</title>
+</head>
+<body>
+
+    <header>
+        <h1>Registro de Animales Rescatados</h1>
+        <p>Consulta y seguimiento de los casos registrados.</p>
+
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="reportar.html">Reportar un animal</a></li>
+                <li><a href="rescates.html">Lista de rescates</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Listado de casos registrados</h2>
+
+            <table>
+                <caption>Registro de rescates de animales</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Código</th>
+                        <th scope="col">Especie</th>
+                        <th scope="col">Ubicación</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Estado</th>
+                        <th scope="col">Responsable</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>RES-001</td>
+                        <td>Perro</td>
+                        <td>Calceta</td>
+                        <td>2026-11-10</td>
+                        <td>Rescatado</td>
+                        <td>Voluntario</td>
+                    </tr>
+
+                    <tr>
+                        <td>RES-002</td>
+                        <td>Gato</td>
+                        <td>Balzar</td>
+                        <td>2026-11-11</td>
+                        <td>En tratamiento</td>
+                        <td>Veterinario</td>
+                    </tr>
+
+                    <tr>
+                        <td>RES-003</td>
+                        <td>Fauna silvestre</td>
+                        <td>Manabí</td>
+                        <td>2026-11-12</td>
+                        <td>Reportado</td>
+                        <td>Administrador</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Estados de los rescates</h2>
+
+            <dl>
+                <dt>Reportado</dt>
+                <dd>Se ha informado sobre un animal que necesita ayuda.</dd>
+
+                <dt>Rescatado</dt>
+                <dd>El animal ha sido trasladado a un lugar seguro.</dd>
+
+                <dt>En tratamiento</dt>
+                <dd>El animal recibe atención veterinaria.</dd>
+
+                <dt>Disponible para adopción</dt>
+                <dd>El animal está preparado para encontrar un hogar.</dd>
+
+                <dt>Adoptado</dt>
+                <dd>El animal ha encontrado una familia responsable.</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Registrar un nuevo caso</h2>
+            <p>Utiliza nuestro formulario para reportar otro animal.</p>
+            <a href="reportar.html">Registrar nuevo rescate</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sistema de Rescate Animal.</p>
+    </footer>
+
+</body>
+</html>
